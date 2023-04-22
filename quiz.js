@@ -112,7 +112,7 @@ function selectAnswer(e){
 function showScore(){
     resetState();
     questionEl.innerHTML =  `you scored ${score} out of ${questions.length}`
-    nextBt.innerHTML = "Play Again";
+    nextBt.innerHTML = "Start Quiz";
     nextBt.style.display = "block";
 }
 
